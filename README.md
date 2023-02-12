@@ -25,11 +25,14 @@ Develop a screen where a user views a boarding pass.
 
 Using the keyframe property. My biggest challenge was being able to reproduce the edges in a semicircle format, I resorted to internet sites to be able to replicate what was expected.
 
-### Screenshot
+### Vídeo / video
+[boracodar.webm](https://user-images.githubusercontent.com/113217529/218342548-77590c5a-8070-4008-9eb6-b4466b495795.webm)
 
 ### Resultado final / final result
+https://guadalupemonteiro.github.io/BoraCodar-Rocketseat/
 
 ### Repositório / Repository
+https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat.git
 
 ### Sugestões / suggestions
 
