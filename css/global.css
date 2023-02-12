@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.textalign {
+    text-align: right;
+}
+
+#container {
+    margin: 1.25rem;
+}
+
+.mrg-top {
+    margin-top: 1.5rem;
+}
+
+.mrg-bottom-1rem {
+    margin-bottom: 1rem;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#info-fly,
+#info-passenger,
+#info-boarding {
+    background-color: #FFFFFF;
+    max-width: 20.438rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+}
+
+.initials {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.938rem;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.border {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
