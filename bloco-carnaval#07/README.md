@@ -24,9 +24,9 @@ Se você possuir qualquer dica de melhoria, sinta-se à vontade para fazer as al
 
 If you have any suggestions for improvement feel free to make any changes you want
 
-## Screenshot
+## Video
 
-## Deploy
+https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat/issues/2#issue-1590915586
 
 ## Author
 
