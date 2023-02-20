@@ -26,7 +26,7 @@ If you have any suggestions for improvement feel free to make any changes you wa
 
 ## Video
 
-https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat/issues/2#issue-1590915586
+https://user-images.githubusercontent.com/113217529/219983476-fd0e1030-7127-4e79-bf0f-1c40c126cf77.mp4
 
 ## Author
 
