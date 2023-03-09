@@ -23,6 +23,7 @@ Pretendo melhorar algumas funcionalidades do conversor com Javascript, como por 
 I intend to improve some features of the converter with Javascript, such as updating data through an api, changing the select data when selecting the type of currency and performing the conversion calculation.
 
 ## Deploy
+https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat
 
 ## Repositório / Repository
 https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat.git
@@ -33,6 +34,7 @@ Sinta-se livre para adicionar qualquer sugestão!
 Feel free to add any suggestions!
 
 ## Screenshot 
+![boracodar](https://user-images.githubusercontent.com/113217529/224116934-e9ba0fa6-8f2d-4fbf-bc8f-28e80ceac51e.png)
 
 ## Autor / author
 - Github - [GuadalupeMonteiro](https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat.git)
