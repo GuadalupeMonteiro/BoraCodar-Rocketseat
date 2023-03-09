@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    line-height: 2.4rem;
+}
+
+:root {
+    --highlight: #7C3AED;
+    --text-primary: #0F172A;
+    --text-secondary: #334155;
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #EDE9FE;
+    --graphic-elements: #94A3B8;
+    --bg-color: #F8FAFC;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
