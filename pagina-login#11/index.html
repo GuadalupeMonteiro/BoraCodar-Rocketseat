@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section>
+        <img id="logo" src="assets/logo.svg" alt="logo da vertigo">
+        <form action="#" method="post" autocomplete="off" id="form">
+            <h2>Acesse a plataforma</h2>
+            <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+
+            <label for="e-mail">E-mail</label>
+            <div class="input-wrapper">
+                <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail" oninput="validateEmail()">
+            </div>
+            <span class="error">Digite um e-mail válido</span>
+
+            <div class="input-text">
+                <label for="password">Senha</label>
+                <a href="#" target="_self">Esqueceu a senha?</a>
+            </div>
+            <div class="input-wrapper">
+                <input type="password" name="password" id="password" placeholder="Digite sua senha"
+                    oninput="validatepassword()">
+                <img id="btn-eye" src="assets/eye-show.svg" alt="ícone de olho para exibir senha"
+                    onclick="showHideEye()">
+            </div>
+            <span class="error">Digite uma senha válida</span>
+            <input id="submit" type="submit" value="Entrar">
+            <p id="btn-nocount">Ainda não tem uma conta? <a href="#" target="_self"> Inscreva-se</a></p>
+        </form>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

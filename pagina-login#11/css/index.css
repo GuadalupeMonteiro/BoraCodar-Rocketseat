@@ -1,0 +1,172 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: url(../assets/background.svg) no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: var(--background);
+}
+
+#logo {
+    margin: 4rem 0 10.6rem 11.2rem;
+}
+
+form {
+    margin-left: 11.2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-width: 38.4rem;
+}
+
+form h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.5rem;
+    color: var(--bold);
+}
+
+form p {
+    max-width: 35.1rem;
+    margin-bottom: 4rem;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--bold);
+    margin-bottom: .8rem;
+}
+
+.input-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+}
+
+.input-text a {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--purple);
+}
+
+.input-wrapper {
+    display: flex;
+    position: relative;
+}
+
+#btn-eye {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+}
+
+form .input-wrapper input {
+    border: 1px solid #E2E8F0;
+    border-radius: .4rem;
+    width: 100%;
+    padding: 1.6rem 1.2rem;
+    margin-bottom: .4rem;
+    background-color: #FFFFFF;
+}
+
+form .input-wrapper input:focus {
+    border: 1px solid var(--purple);
+    outline: none;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #ED3A5A;
+    display: none;
+}
+
+p a {
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: var(--purple);
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: var(--purple);
+    margin: 3.2rem 0 3.2rem;
+    padding: 1.6rem 2.4rem;
+    max-width: 38.4rem;
+    border: none;
+    border-radius: .4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+#submit:focus {
+    outline-color: #541eb2;
+}
+
+#submit:hover {
+    background-color: #9F67FF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+    body {
+        background-size: cover;
+        backdrop-filter: blur(5px);
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        background-color: #ffffff;
+        border-radius: 1rem;
+        max-width: 40rem;
+        padding: 2rem;
+        position: relative;
+    }
+
+    #logo {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: auto;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    form h2 {
+        line-height: 3.5rem;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    form p {
+        margin-bottom: 2.5rem;
+    }
+
+    #btn-nocount {
+        margin-bottom: 1.5rem;
+    }
+}
