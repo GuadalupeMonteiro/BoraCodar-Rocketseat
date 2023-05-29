@@ -8,6 +8,7 @@ The challenge is to develop an image gallery using HTML and CSS technologies for
 ## Adaptações / Adaptations
 
 ### Hover
+![hovers](https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat/assets/113217529/c758bcd2-607f-46d3-9bac-34830d49a686)
 
 A proposta inicial do desafio para efeito hover seria um fundo escuro com fonte e bordas claras, como na imagem acima. Contudo, procurei desenvolver outra alternativa que destacasse o projeto da concorrência. Primeiro pensei em fazer um efeito hover com inspiração na foto polaroid, mas, em seguida, tive a ideia de deslocar o texto para a direita, deslocar a imagem para esquerda e aplicar um padding no container da imagem. Na legenda da foto alterei o modo de escrita para vertical e destaquei as letras com as cores opostas em relação ao fundo onde estavam.
 
@@ -44,7 +45,7 @@ Sinta-se livre para adicionar qualquer sugestão!
 Feel free to add any suggestions!
 
 ## Video
-
+https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat/assets/113217529/70863208-b83b-4917-9308-b18dbcd9c6ca
 
 ## Autor / author
 - Github - [GuadalupeMonteiro](https://github.com/GuadalupeMonteiro/BoraCodar-Rocketseat.git)
