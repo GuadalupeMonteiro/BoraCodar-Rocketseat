@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 14rem 10.4rem 14rem 11.1rem;
+    background-color: #121214;
+    display: flex;
+    justify-content: center;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 45px;
+    background-color: #121214be;
+    visibility: hidden;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:is(body, #modal) {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/noise-effect-ruido.png);
+}
+
+#modal i {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#modal i:hover {
+    transform: scale(1.2);
+    transition: all .4s ease;
+}
+
+.modal-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+header {
+    max-width: 30rem;
+}
+
+header h1 {
+    font-size: 4.8rem;
+    line-height: 6rem;
+    margin: 0rem 3.4rem 3.2rem;
+}
+
+header i {
+    font-size: 3.2rem;
+    margin: 3.2rem 3.4rem;
+    display: block;
+}
+
+.grid {
+    display: grid;
+    gap: 2.5rem;
+}
+
+.image-wrapper {
+    position: relative;
+    transition: all .4s ease;
+}
+
+.image-wrapper:hover {
+    background-color: aliceblue;
+    padding: 1.9rem 1.9rem 3.5rem 1.5rem;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+
+.image-wrapper:hover img {
+    position: relative;
+    left: -28px;
+}
+
+.image-wrapper:nth-child(1) {
+    grid-row: 1/3;
+    aspect-ratio: 9/16;
+}
+
+.horizontal {
+    grid-column: 1/3;
+}
+
+.horizontal img {
+    aspect-ratio: 16/9;
+}
+
+.model-2 .image-wrapper:nth-child(1) {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    aspect-ratio: 9/16;
+}
+
+figcaption {
+    font-size: 1.3vw;
+    color: #121214;
+    letter-spacing: 2.7px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    overflow-wrap: break-word;
+    position: absolute;
+    top: -100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-wrapper:hover figcaption {
+    right: 15px;
+    top: -20px;
+    visibility: visible;
+    transition: all .7s ease;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        flex-wrap: wrap;
+    }
+
+    header {
+        position: absolute;
+        top: 6.5rem;
+        left: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    header h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    header i {
+        font-size: 2.8rem;
+    }
+
+    main {
+        margin-top: 120px;
+    }
+
+    .grid {
+        row-gap: 2rem;
+    }
+
+    figcaption {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        padding: 14rem 4rem;
+    }
+
+    header {
+        left: .5rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    header i {
+        font-size: 2.3rem;
+    }
+
+    .model-1,
+    .model-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    figcaption {
+        font-size: 2.8vw;
+    }
+
+    .image-wrapper:hover figcaption {
+        top: -16.5px;
+    }
+}
